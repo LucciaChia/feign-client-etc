@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: present
+
+server:
+  port: 8081
+
+ribbon:
+  eureka:
+    enabled: false
+
+
