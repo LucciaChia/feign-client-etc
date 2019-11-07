@@ -12,7 +12,7 @@ import java.util.List;
 
 @Service
 @RestController
-@FeignClient(name = "country", url = "http://localhost:8080/")
+@FeignClient(name = "country", url = "http://localhost:8080/") //TODO hladat podla mena
 @RequestMapping(path = "/countries")
 public interface CountryClient {
 

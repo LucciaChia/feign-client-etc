@@ -11,6 +11,7 @@ ribbon:
 
 # az toto zabranilo zobrazovaniu chyby:
 # com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+# pri testoch disablnem
 eureka:
   client:
     register-with-eureka: false
